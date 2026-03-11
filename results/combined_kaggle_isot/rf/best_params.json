@@ -1,0 +1,20 @@
+{
+  "model": "rf",
+  "dataset": "combined_kaggle_isot",
+  "seed": 42,
+  "fast_mode": true,
+  "split_file": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_kaggle_isot_seed42.npz",
+  "best_val_F1": 0.9057616411934692,
+  "best_params": {
+    "clf__max_depth": 60,
+    "clf__max_features": "sqrt",
+    "clf__min_samples_leaf": 8,
+    "clf__min_samples_split": 8,
+    "clf__n_estimators": 421,
+    "tfidf__max_features": 20000,
+    "tfidf__ngram_range": [
+      1,
+      1
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+name: fake-news-paper
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - nltk
+  - optuna
+  - pytorch
+  - cpuonly
+  - ipykernel

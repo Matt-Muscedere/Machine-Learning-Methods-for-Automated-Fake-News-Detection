@@ -1,0 +1,21 @@
+{
+  "model": "rnn",
+  "dataset": "combined_kaggle_isot",
+  "seed": 42,
+  "fast_mode": true,
+  "search_backend": "optuna",
+  "split_file": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_kaggle_isot_seed42.npz",
+  "best_val_F1": 0.7976190476190477,
+  "best_epoch": 3,
+  "best_params": {
+    "embedding_dim": 300,
+    "hidden_size": 128,
+    "num_layers": 3,
+    "dropout": 0.0530955012311517,
+    "lr": 3.380273704712436e-05,
+    "weight_decay": 1.6832027985721884e-08,
+    "batch_size": 128,
+    "max_len": 600,
+    "max_epochs": 3
+  }
+}
