@@ -1,0 +1,21 @@
+{
+  "model": "rnn",
+  "dataset": "combined_corpus",
+  "seed": 42,
+  "fast_mode": true,
+  "search_backend": "optuna",
+  "split_file": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_corpus_seed42.npz",
+  "best_val_F1": 0.9709493860437257,
+  "best_epoch": 6,
+  "best_params": {
+    "embedding_dim": 300,
+    "hidden_size": 256,
+    "num_layers": 1,
+    "dropout": 0.5693313223519999,
+    "lr": 0.00403842379807156,
+    "weight_decay": 0.00011015056790269616,
+    "batch_size": 64,
+    "max_len": 500,
+    "max_epochs": 6
+  }
+}

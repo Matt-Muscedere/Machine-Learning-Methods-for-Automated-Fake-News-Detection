@@ -1,0 +1,20 @@
+{
+  "model": "autoencoder",
+  "dataset": "combined_kaggle_isot",
+  "seed": 42,
+  "fast_mode": true,
+  "search_backend": "optuna",
+  "split_file": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_kaggle_isot_seed42.npz",
+  "best_val_F1": 0.9612501993302504,
+  "best_epoch": 8,
+  "best_params": {
+    "hidden_size": 64,
+    "dropout": 0.4847923138822793,
+    "lr": 0.0003550304858128307,
+    "pretrain_epochs": 8,
+    "finetune_epochs": 8,
+    "loss_weight_cls": 1.3968499682166278,
+    "batch_size": 8,
+    "max_len": 300
+  }
+}
