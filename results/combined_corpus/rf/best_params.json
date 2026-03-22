@@ -1,0 +1,20 @@
+{
+  "model": "rf",
+  "dataset": "combined_corpus",
+  "seed": 42,
+  "fast_mode": true,
+  "split_file": "/home/koult/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_corpus_seed42.npz",
+  "best_val_F1": 0.9565315240822297,
+  "best_params": {
+    "clf__max_depth": 60,
+    "clf__max_features": "sqrt",
+    "clf__min_samples_leaf": 5,
+    "clf__min_samples_split": 3,
+    "clf__n_estimators": 543,
+    "tfidf__max_features": 10000,
+    "tfidf__ngram_range": [
+      1,
+      2
+    ]
+  }
+}
