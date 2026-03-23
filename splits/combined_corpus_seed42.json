@@ -1,0 +1,9 @@
+{
+  "dataset_name": "combined_corpus",
+  "seed": 42,
+  "num_rows": 86533,
+  "dataset_fingerprint": "c5780188c0b034f17b3a998b869b1e6fd1dfbb3425ea2218c34d0ad9d77fe929",
+  "train_frac": 0.8,
+  "val_frac": 0.1,
+  "test_frac": 0.1
+}

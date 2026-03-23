@@ -1,0 +1,38 @@
+{
+  "all_files_discovered": true,
+  "all_files_processed_successfully": true,
+  "cleaned_csv_path": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/Combined_Corpus_Dataset/Data/combined_corpus_cleaned.csv",
+  "cleaned_parquet_path": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/Combined_Corpus_Dataset/Data/combined_corpus_cleaned.parquet",
+  "dataset_fingerprint": "c5780188c0b034f17b3a998b869b1e6fd1dfbb3425ea2218c34d0ad9d77fe929",
+  "discovered_file_count": 33,
+  "dropped_rows_sample_path": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/results/combined_corpus/dropped_rows_sample.csv",
+  "expected_file_count": 33,
+  "failed_file_count": 0,
+  "failed_files": [],
+  "generated_at_utc": "2026-03-21T21:31:32+00:00",
+  "label_normalization": {
+    "0": 0,
+    "1": 1,
+    "fake": 0,
+    "false": 0,
+    "real": 1,
+    "reliable": 1,
+    "true": 1,
+    "unreliable": 0
+  },
+  "manifest_fingerprint": "b386c5d71425fed169a7e63d951ecb84bfb5f2836c544c9e5bc4395be1991bfa",
+  "manifest_path": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/results/combined_corpus/data_audit_manifest.csv",
+  "parser_methods": {
+    "custom_recovery": 21,
+    "pandas_c": 12
+  },
+  "raw_label_value_counts": {
+    "0": 41101,
+    "1": 45432
+  },
+  "successful_file_count": 33,
+  "summary_path": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/results/combined_corpus/data_audit_summary.json",
+  "total_cleaned_rows": 86533,
+  "total_dropped_rows": 13,
+  "total_raw_rows": 86546
+}

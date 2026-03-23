@@ -1,0 +1,43 @@
+file_path,file_size_bytes,load_status,parser_method,raw_row_count,cleaned_row_count,dropped_row_count,error_message
+Combined_Corpus_Dataset/Data/Test/Mixed_and_fulltrain_000.csv,11876218,loaded,pandas_c,1999,1999,0,
+Combined_Corpus_Dataset/Data/Test/Mixed_and_fulltrain_001.csv,11535747,loaded,pandas_c,2000,2000,0,
+Combined_Corpus_Dataset/Data/Test/Mixed_and_fulltrain_002.csv,4983916,loaded,pandas_c,2000,2000,0,
+Combined_Corpus_Dataset/Data/Test/Mixed_and_fulltrain_003.csv,4066384,loaded,pandas_c,1012,1012,0,
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_000.csv,9994797,loaded,custom_recovery,2587,2586,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 2587 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_001.csv,12256561,loaded,custom_recovery,3223,3222,1,"pandas_c failed: Error tokenizing data. C error: Expected 3 fields in line 91, saw 6
+ | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_002.csv,12899447,loaded,custom_recovery,3387,3386,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 3468 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_003.csv,3949887,loaded,custom_recovery,983,983,0,"pandas_c failed: Error tokenizing data. C error: Expected 5 fields in line 89, saw 6
+ | pandas_python failed: ',' expected after '""' | pandas_python_escape failed: ',' expected after '""'"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_004.csv,13739090,loaded,pandas_c,3380,3380,0,
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_005.csv,15074722,loaded,custom_recovery,3849,3848,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 3849 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_006.csv,10758388,loaded,custom_recovery,2707,2706,1,"pandas_c failed: Error tokenizing data. C error: Expected 9 fields in line 32, saw 34
+ | pandas_python failed: ',' expected after '""' | pandas_python_escape failed: ',' expected after '""' | label_not_recoverable_after_join"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_007.csv,11227328,loaded,custom_recovery,2746,2746,0,"pandas_c failed: Error tokenizing data. C error: Expected 2 fields in line 96, saw 3
+ | pandas_python failed: Expected 2 fields in line 330, saw 3 | pandas_python_escape failed: Expected 2 fields in line 330, saw 3"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_008.csv,12147159,loaded,pandas_c,3086,3086,0,
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_009.csv,13882186,loaded,pandas_c,3422,3422,0,
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_010.csv,13626570,loaded,custom_recovery,3468,3467,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 3468 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_011.csv,13016871,loaded,custom_recovery,3251,3251,0,pandas_c failed: no usable rows after cleaning | pandas_python failed: no usable rows after cleaning | pandas_python_escape failed: no usable rows after cleaning
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_012.csv,9831497,loaded,custom_recovery,2590,2589,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 2590 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_013.csv,12881810,loaded,custom_recovery,3118,3117,1,"pandas_c failed: Error tokenizing data. C error: Expected 2 fields in line 135, saw 15
+ | pandas_python failed: ',' expected after '""' | pandas_python_escape failed: ',' expected after '""' | label_not_recoverable_after_join"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_014.csv,5717188,loaded,custom_recovery,1458,1458,0,"pandas_c failed: Error tokenizing data. C error: Expected 2 fields in line 268, saw 4
+ | pandas_python failed: ',' expected after '""' | pandas_python_escape failed: ',' expected after '""'"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_015.csv,10552330,loaded,pandas_c,2726,2726,0,
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_016.csv,15089181,loaded,pandas_c,3758,3758,0,
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_017.csv,11254967,loaded,custom_recovery,2888,2887,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 2888 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_018.csv,8876829,loaded,custom_recovery,2281,2281,0,"pandas_c failed: parser produced dropped rows after cleaning (2279/2280); falling back to stricter recovery | pandas_python failed: ',' expected after '""' | pandas_python_escape failed: ',' expected after '""'"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_019.csv,7689020,loaded,pandas_c,1928,1928,0,
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_020.csv,8682991,loaded,custom_recovery,2150,2149,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 2150 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_021.csv,11012048,loaded,custom_recovery,2811,2811,0,"pandas_c failed: Error tokenizing data. C error: Expected 2 fields in line 19, saw 14
+ | pandas_python failed: ',' expected after '""' | pandas_python_escape failed: ',' expected after '""'"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_022.csv,8639965,loaded,custom_recovery,2218,2217,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 2218 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_023.csv,13029891,loaded,custom_recovery,3223,3223,0,"pandas_c failed: Error tokenizing data. C error: Expected 3 fields in line 111, saw 4
+ | pandas_python failed: Expected 3 fields in line 153, saw 4 | pandas_python_escape failed: Expected 3 fields in line 153, saw 4"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_024.csv,13275765,loaded,pandas_c,3374,3374,0,
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_025.csv,10807011,loaded,custom_recovery,2718,2717,1,pandas_c failed: Error tokenizing data. C error: EOF inside string starting at row 2718 | pandas_python failed: unexpected end of data | pandas_python_escape failed: unexpected end of data | label_not_recoverable_after_join
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_026.csv,9792476,loaded,custom_recovery,2503,2502,1,"pandas_c failed: Error tokenizing data. C error: Expected 2 fields in line 35, saw 42
+ | pandas_python failed: ',' expected after '""' | pandas_python_escape failed: ',' expected after '""' | label_not_recoverable_after_join"
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_027.csv,8879748,loaded,custom_recovery,2233,2233,0,pandas_c failed: no usable rows after cleaning | pandas_python failed: no usable rows after cleaning | pandas_python_escape failed: no usable rows after cleaning
+Combined_Corpus_Dataset/Data/Train/fulltrain_Guardian_Nyt_binary_shuffled_028.csv,6239010,loaded,pandas_c,1469,1469,0,

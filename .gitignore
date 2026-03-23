@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+
+# Generated Combined Corpus artifacts are reproducible from the raw shards and
+# exceed GitHub's file size limits, so keep them local.
+Combined_Corpus_Dataset/Data/combined_corpus_cleaned.csv
+Combined_Corpus_Dataset/Data/combined_corpus_cleaned.parquet

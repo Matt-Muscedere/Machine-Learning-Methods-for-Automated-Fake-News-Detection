@@ -5,17 +5,23 @@
   "fast_mode": true,
   "search_backend": "optuna",
   "split_file": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_corpus_seed42.npz",
-  "best_val_F1": 0.9709493860437257,
-  "best_epoch": 6,
+  "dataset_total_rows": 86533,
+  "train_rows": 69226,
+  "val_rows": 8653,
+  "test_rows": 8654,
+  "dataset_fingerprint": "c5780188c0b034f17b3a998b869b1e6fd1dfbb3425ea2218c34d0ad9d77fe929",
+  "combined_corpus_audit_summary": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/results/combined_corpus/data_audit_summary.json",
+  "best_val_F1": 0.9886501377410468,
+  "best_epoch": 5,
   "best_params": {
-    "embedding_dim": 300,
-    "hidden_size": 256,
+    "embedding_dim": 100,
+    "hidden_size": 128,
     "num_layers": 1,
-    "dropout": 0.5693313223519999,
-    "lr": 0.00403842379807156,
-    "weight_decay": 0.00011015056790269616,
-    "batch_size": 64,
-    "max_len": 500,
-    "max_epochs": 6
+    "dropout": 0.06952143571507782,
+    "lr": 0.00213545417892913,
+    "weight_decay": 1.3076473382928529e-05,
+    "batch_size": 16,
+    "max_len": 400,
+    "max_epochs": 7
   }
 }
