@@ -1,0 +1,25 @@
+{
+  "model": "svm",
+  "dataset": "combined_corpus",
+  "seed": 42,
+  "fast_mode": true,
+  "split_file": "/home/koult/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_corpus_seed42.npz",
+  "dataset_total_rows": 86533,
+  "train_rows": 69226,
+  "val_rows": 8653,
+  "test_rows": 8654,
+  "dataset_fingerprint": "c5780188c0b034f17b3a998b869b1e6fd1dfbb3425ea2218c34d0ad9d77fe929",
+  "combined_corpus_audit_summary": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/results/combined_corpus/data_audit_summary.json",
+  "best_val_F1": 0.9781522208723563,
+  "best_params": {
+    "clf__C": 897.9855655182433,
+    "clf__gamma": "scale",
+    "clf__kernel": "rbf",
+    "tfidf__max_features": 10000,
+    "tfidf__min_df": 2,
+    "tfidf__ngram_range": [
+      1,
+      1
+    ]
+  }
+}
