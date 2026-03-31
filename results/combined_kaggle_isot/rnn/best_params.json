@@ -5,17 +5,23 @@
   "fast_mode": true,
   "search_backend": "optuna",
   "split_file": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_kaggle_isot_seed42.npz",
-  "best_val_F1": 0.7976190476190477,
-  "best_epoch": 3,
+  "dataset_total_rows": 65698,
+  "train_rows": 52558,
+  "val_rows": 6570,
+  "test_rows": 6570,
+  "dataset_fingerprint": null,
+  "combined_corpus_audit_summary": null,
+  "best_val_F1": 0.9826607818411097,
+  "best_epoch": 7,
   "best_params": {
-    "embedding_dim": 300,
+    "embedding_dim": 100,
     "hidden_size": 128,
-    "num_layers": 3,
-    "dropout": 0.0530955012311517,
-    "lr": 3.380273704712436e-05,
-    "weight_decay": 1.6832027985721884e-08,
-    "batch_size": 128,
-    "max_len": 600,
-    "max_epochs": 3
+    "num_layers": 1,
+    "dropout": 0.06952143571507782,
+    "lr": 0.00213545417892913,
+    "weight_decay": 1.3076473382928529e-05,
+    "batch_size": 16,
+    "max_len": 400,
+    "max_epochs": 7
   }
 }
