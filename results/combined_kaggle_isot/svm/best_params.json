@@ -1,0 +1,25 @@
+{
+  "model": "svm",
+  "dataset": "combined_kaggle_isot",
+  "seed": 42,
+  "fast_mode": true,
+  "split_file": "/home/muscede2/Machine-Learning-Methods-for-Automated-Fake-News-Detection/splits/combined_kaggle_isot_seed42.npz",
+  "dataset_total_rows": 65698,
+  "train_rows": 52558,
+  "val_rows": 6570,
+  "test_rows": 6570,
+  "dataset_fingerprint": null,
+  "combined_corpus_audit_summary": null,
+  "best_val_F1": 0.9510107491754383,
+  "best_params": {
+    "clf__C": 897.9855655182433,
+    "clf__gamma": "scale",
+    "clf__kernel": "rbf",
+    "tfidf__max_features": 10000,
+    "tfidf__min_df": 2,
+    "tfidf__ngram_range": [
+      1,
+      1
+    ]
+  }
+}
